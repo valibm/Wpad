@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WPad.Core.Entities;
+using WPad.Core.Interfaces;
+using WPad.DAL.Context;
+
+namespace WPad.DAL.Implementations
+{
+    public class ImageRepository : Repository<Image>, IImageRepository 
+    {
+        private AppDbContext _context;
+        public ImageRepository(AppDbContext context) : base(context)
+        {
+            _context = context;
+        }
+    }
+}

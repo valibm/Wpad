@@ -1,0 +1,12 @@
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\bin\Debug\net5.0\WPad.Core.deps.json
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\bin\Debug\net5.0\WPad.Core.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\bin\Debug\net5.0\WPad.Core.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.csproj.AssemblyReference.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.AssemblyInfoInputs.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.AssemblyInfo.cs
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.csproj.CoreCompileInputs.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\refint\WPad.Core.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\WPad.Core.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Core\obj\Debug\net5.0\ref\WPad.Core.dll

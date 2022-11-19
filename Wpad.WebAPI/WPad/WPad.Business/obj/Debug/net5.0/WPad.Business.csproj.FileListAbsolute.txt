@@ -1,0 +1,17 @@
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.Business.deps.json
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.Business.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.Business.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.csproj.AssemblyReference.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.AssemblyInfoInputs.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.AssemblyInfo.cs
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.csproj.CoreCompileInputs.cache
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\refint\WPad.Business.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\ref\WPad.Business.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.Core.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.DAL.dll
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.DAL.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\bin\Debug\net5.0\WPad.Core.pdb
+C:\Users\Help\Desktop\Wpad.WebAPI\WPad\WPad.Business\obj\Debug\net5.0\WPad.Business.csproj.CopyComplete
