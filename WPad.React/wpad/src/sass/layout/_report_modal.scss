@@ -1,0 +1,35 @@
+.comment-report-inupts {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  margin: 5px 0;
+}
+
+.report-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.report-radio {
+  width: 20px;
+  height: 20px;
+}
+
+.report-explanation-input {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.txt-lg {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.report-description {
+  font-size: 12px;
+  color: $gray-md;
+}

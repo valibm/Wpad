@@ -1,0 +1,36 @@
+.browse-g {
+  padding-top: 95px;
+  .channel-list {
+    font-size: $fs-lg;
+    font-weight: $fw-max;
+    .channel-card {
+      text-decoration: none;
+      color: #222;
+      background-color: #fafafa;
+      padding-right: 100px;
+      padding-left: 0.5rem;
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: right;
+      height: 6.5rem;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      // box-shadow: 0 1px 10px 0 rgb(34 34 34 / 8%), 0 4px 5px 0 rgb(34 34 34 / 10%);
+      border-radius: $borderRadius-min;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      span {
+        font-size: 10px;
+        color: #888;
+        text-decoration: none;
+      }
+
+      &:hover {
+        text-decoration: underline;
+        color: #222;
+      }
+    }
+  }
+}

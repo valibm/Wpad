@@ -1,0 +1,130 @@
+.comment-section {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  .comment {
+    display: flex;
+    &-side {
+      margin-right: 0.75rem;
+    }
+    &-body {
+      &-header {
+        display: flex;
+        align-items: center;
+      }
+      &-content {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    &-footer {
+      border-top: 1px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      color: rgb(120, 124, 126);
+      font-size: 12px;
+      &-reply-btn {
+        border: none;
+        background: none;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        padding: 0.5rem;
+        color: rgb(120, 124, 126);
+
+        &:hover {
+          background-color: rgba(26, 26, 27, 0.1);
+          color: #ff6122;
+        }
+
+        i {
+          font-size: 18px;
+        }
+
+        .reply-txt {
+          font-weight: 700;
+        }
+      }
+      &-menu {
+        position: relative;
+        &-btn {
+          background: none;
+          border: none;
+          color: rgb(120, 124, 126);
+          font-size: 24px;
+        }
+
+        &-report {
+          background-color: white;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          position: absolute;
+          padding: 5px 0;
+          width: 120px;
+          top: 35px;
+          left: -100px;
+
+          &-btn {
+            border: none;
+            background: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0.5rem;
+            color: rgb(120, 124, 126);
+
+            &:hover {
+              background-color: rgba(26, 26, 27, 0.1);
+              color: #ff6122;
+            }
+
+            i {
+              font-size: 18px;
+            }
+
+            .report-txt {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.replies-btn {
+  border: none;
+  background: none;
+
+  &:hover {
+    color: #ff6122;
+  }
+}
+
+.comment-user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+
+  &:hover {
+    border: 1px solid #ff6122;
+  }
+}
+
+.txt-username {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+
+  &:hover {
+    color: #ff6122;
+  }
+}
+
+.txt-time {
+  font-size: 12px;
+  color: rgb(120, 124, 126);
+  font-weight: 500;
+}

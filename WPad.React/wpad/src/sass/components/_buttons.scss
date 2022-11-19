@@ -1,0 +1,291 @@
+.btn-normalize {
+  border: none;
+  background: none;
+}
+
+.fb-btn {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  color: $light;
+  background-color: #3b5998;
+  border: none;
+  border-radius: 100px;
+  @extend %display-flex-y-center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: $fw-s-max;
+
+  i {
+    font-size: 25px;
+  }
+
+  &:hover {
+    background-color: #344e86;
+  }
+}
+
+.g-btn {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  color: #6f6f6f;
+  background-color: $light;
+  border: solid 1.2px #6f6f6f;
+  border-radius: 100px;
+  @extend %display-flex-y-center;
+  justify-content: center;
+  font-weight: $fw-s-max;
+  cursor: pointer;
+
+  &:hover {
+    border-color: black;
+    color: black;
+  }
+
+  .g-color-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.btn-bg-dark {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+  background-color: #222;
+  border-radius: 100px;
+  @extend %display-flex-y-center;
+  justify-content: center;
+  font-weight: $fw-s-max;
+}
+
+.login-modal-btn {
+  color: inherit;
+  padding: 0.75rem 1.25rem;
+  border-radius: $borderRadius;
+  font-weight: 500;
+  transition: 0.3s ease all;
+  background: none;
+  border: none;
+
+  @include breakPoint(md) {
+    color: $dark;
+  }
+
+  &:hover {
+    color: $orange-main;
+  }
+}
+
+.invite-btn {
+  width: 25%;
+  color: white;
+  background-color: $orange-btn;
+  font-weight: $fw-max;
+  border-radius: $borderRadius-min;
+  border: none;
+  padding: 0.25rem 0.25rem;
+
+  &:hover {
+    background-color: $orange-btn-dark;
+  }
+}
+
+.post-footer-btn {
+  @extend %display-flex-y-center;
+  border-radius: $borderRadius-min;
+  padding: 0.5rem;
+  color: $gray-md;
+
+  &:hover {
+    background-color: #eee;
+    color: $orange-btn;
+  }
+
+  i {
+    font-size: $fs-xlg;
+  }
+
+  &-txt {
+    font-weight: $fw-max;
+  }
+}
+
+.post-footer-btn-active {
+  color: $orange-btn !important;
+}
+
+.comment-btn {
+  text-decoration: none;
+  color: $gray-md;
+
+  &:hover {
+    color: $orange-main;
+    cursor: pointer;
+  }
+}
+
+.follow-btn {
+  color: $orange-btn;
+  font-family: "Helvetica";
+  font-size: 10pt;
+  background-color: #ffffff;
+  border: 1px solid $orange-btn;
+  border-radius: 3px;
+  width: 85px;
+  height: 100%;
+  cursor: hand;
+  // border: none;
+  // border-radius: $borderRadius-max;
+  // background-color: $orange-btn;
+  // font-size: $fs-xs;
+  // font-weight: $fw-max;
+  // color: $light;
+
+  // &:hover {
+  //   background-color: $orange-btn-dark;
+  // }
+}
+
+.unfollow-btn {
+  color: #ffffff;
+  font-size: 10pt;
+  background-color: $orange-btn;
+  border: 1px solid $orange-btn;
+  border-radius: 3px;
+  width: 85px;
+  height: 100%;
+  cursor: hand;
+}
+
+.userPage-controls-edit-btn {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: solid 2px $gray-btn-bg;
+  font-size: $fs-m;
+  border-radius: 6px;
+  color: $gray-btn;
+  float: right;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gray-btn-bg;
+    color: $gray-btn;
+  }
+}
+
+.round-btn {
+  @extend %display-flex-center;
+  border-radius: $borderRadius-max;
+  width: 30px;
+  height: 30px;
+}
+
+.user-card-flw-btn {
+  width: 100%;
+  height: 38px;
+  padding: 5px 25px;
+  border-radius: $borderRadius-min;
+  background: none;
+  border: solid 2px $gray-btn-bg;
+
+  &:hover {
+    background-color: $gray-btn-bg;
+  }
+}
+
+.user-card-unflw-btn {
+  width: 100%;
+  height: 38px;
+  padding: 5px 25px;
+  border-radius: $borderRadius-min;
+  background-color: $green-bg;
+  color: $light;
+  border: none;
+
+  &:hover {
+    background-color: $green-hov;
+  }
+}
+
+.share-btn {
+  border: none;
+  border-radius: $borderRadius-min;
+  padding: 5px 20px;
+  background-color: $orange-btn;
+  font-size: $fs-lg;
+  font-weight: $fw-max;
+  color: $light;
+
+  &:hover {
+    background-color: $orange-btn-dark;
+  }
+}
+
+.add-image-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: solid 2px $gray-btn-bg;
+  font-size: $fs-m;
+  border-radius: 6px;
+  color: $gray-btn;
+
+  &:hover {
+    background-color: $gray-btn-bg;
+    color: $gray-btn;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+.readMore-btn {
+  text-decoration: none;
+  color: $dark;
+  font-weight: $fw-s-max;
+  border-radius: $borderRadius-min;
+
+  &:hover {
+    color: $dark;
+  }
+}
+
+.post-drp-btn {
+  font-size: $fs-xlg;
+  color: $gray-md;
+}
+
+.modal-cancel {
+  padding: 5px 10px;
+  border: solid 2px $gray-btn-bg;
+  background-color: $light;
+  font-size: $fs-m;
+  border-radius: 6px;
+  color: $gray-btn;
+  float: right;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gray-btn-bg;
+    color: $gray-btn;
+  }
+}
+
+.modal-remove {
+  padding: 5px 10px;
+  border: solid 2px #ed2939;
+  background-color: $light;
+  font-size: $fs-m;
+  border-radius: 6px;
+  color: $gray-btn;
+  float: right;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ed2939;
+    color: $light;
+  }
+}

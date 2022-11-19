@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+$Poppins: "Poppins", sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$dark-bg: #082032;
+$light: #fff;
+$orange-main: #ff500a;
+$orange-btn: #ff6122;
+$orange-btn-dark: #ff4f08;
+$green-bg: #00b2b2;
+$green-hov: #009899;
+$gray-light: #ccc;
+$gray-md: rgb(120, 120, 120);
+$gray-home-bg: #dae0e6;
+$gray-btn: #6f6f6f;
+$gray-btn-bg: #eee;
+$btn-bg: rgba(26, 26, 27, 0.1);
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius-min: 4px;
+$borderRadius: 12px;
+$borderRadius-max: 50px;
+
+//font weight
+$fw-min: 400;
+$fw-mid: 500;
+$fw-s-max: 600;
+$fw-max: 700;
+
+//font size
+$fs-xs: 12px;
+$fs-s: 14px;
+$fs-s-m: 15px;
+$fs-m: 16px;
+$fs-lg: 18px;
+$fs-xlg: 24px;
+
+// header height
+$headerHeight: 75px;

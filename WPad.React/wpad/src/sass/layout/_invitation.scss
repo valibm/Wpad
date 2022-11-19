@@ -1,0 +1,40 @@
+.share {
+  background-color: white;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+
+  .share-top {
+    background-color: #00b2b2;
+    border-radius: $borderRadius-min;
+    color: white;
+    text-align: center;
+    border: 1px solid $gray-light;
+
+    .share-title {
+      font-weight: $fw-max;
+    }
+
+    .share-txt {
+      font-weight: $fw-max;
+    }
+  }
+}
+
+.consent {
+  color: #6f6f6f;
+  font-size: $fs-s;
+  text-align: center;
+
+  p {
+    margin: 0.75rem 0;
+  }
+}
+
+.invite-email {
+  margin: 1.5rem auto;
+  text-align: center;
+
+  img {
+    max-width: 128px;
+  }
+}

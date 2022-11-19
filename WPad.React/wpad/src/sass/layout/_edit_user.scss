@@ -1,0 +1,77 @@
+.edit-profile-g {
+  padding-top: 95px;
+  background-image: url("https://fontawesome.com/images/icons-gray-bg.svg");
+}
+
+.edit-profile-card {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  .edit-profile-card-header {
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      border-bottom: 4px solid #ff6122;
+    }
+    p {
+      color: gray;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+
+.change-password-btn {
+  background: none;
+  border: none;
+  color: #ff6122;
+}
+
+.forgot-password-div {
+  display: flex;
+  justify-content: flex-end;
+  a {
+    text-decoration: none;
+    color: #3b19a9;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.about-textArea {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #222;
+  border: 1px solid #eee;
+  padding: 0.75rem;
+
+  &:focus {
+    border: 1px solid #222;
+    outline: none;
+  }
+}
+
+.change-avatar {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  &-header {
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 4px solid #ff6122;
+  }
+}
+
+.light-p {
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+}

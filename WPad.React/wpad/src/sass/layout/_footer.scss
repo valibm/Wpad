@@ -1,0 +1,42 @@
+footer {
+  background-color: #082032;
+  .footer-body {
+    border-bottom: 1px solid #334756;
+    .footer-logo {
+      span {
+        color: #334756;
+        font-size: 12px;
+      }
+
+      &-img {
+        width: 200px;
+        height: 80px;
+        display: block;
+      }
+    }
+
+    .footer-list {
+      @extend %display-flex-x-between-y-center;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          color: $orange-main;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-list {
+    flex-direction: column;
+    justify-content: center !important;
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
+}

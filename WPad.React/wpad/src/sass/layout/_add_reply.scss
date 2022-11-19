@@ -1,0 +1,51 @@
+.add-reply {
+  display: flex;
+  &-side {
+    margin-right: 0.75rem;
+  }
+  &-body {
+    width: 100%;
+    &-header {
+      input {
+        width: 100%;
+        padding: 5px 0;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+      }
+    }
+    &-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      &-cancel {
+        border: none;
+        background: none;
+        padding: 10px 16px;
+        color: rgb(120, 120, 120);
+        font-weight: 500;
+        font-size: 14px;
+      }
+      &-reply {
+        border: none;
+        background: none;
+        padding: 5px 16px;
+        background: linear-gradient(
+          to right,
+          rgb(241, 39, 17),
+          rgb(245, 175, 25)
+        );
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:disabled {
+          background: none;
+          background-color: rgba(26, 26, 27, 0.1);
+          color: rgb(120, 120, 120);
+        }
+      }
+    }
+  }
+}

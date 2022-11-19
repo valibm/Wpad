@@ -1,0 +1,24 @@
+.footer {
+  background-color: white;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $gray-light;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: $fs-xs;
+      font-weight: $fw-min;
+    }
+  }
+
+  span {
+    font-size: $fs-xs;
+    font-weight: $fw-min;
+  }
+}

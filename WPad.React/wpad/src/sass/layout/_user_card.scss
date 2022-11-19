@@ -1,0 +1,62 @@
+.user-card {
+  width: 270px;
+  border-radius: $borderRadius-min;
+  box-shadow: 0 2px 5px rgba(120, 120, 120, 0.25);
+  margin-bottom: 20px;
+  .user-card-img-div {
+    border-top-left-radius: $borderRadius-min;
+    border-top-right-radius: $borderRadius-min;
+    height: 102px;
+    background-color: #6f6f6f;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    .user-card-img {
+      width: 5.25rem;
+      height: 5.25rem;
+      border-radius: $borderRadius-max;
+      position: absolute;
+      top: 36px;
+      left: 93px;
+    }
+  }
+  .user-card-txt-div {
+    margin-top: 1.25rem;
+    text-align: center;
+    .user-card-fullname {
+      text-decoration: none;
+      color: #6f6f6f;
+      font-weight: $fw-s-max;
+      font-size: $fs-lg;
+    }
+    .user-card-username {
+      color: #6f6f6f;
+      font-size: $fs-s;
+    }
+  }
+
+  .user-card-flwr-div {
+    background-color: #f0fbfb;
+    text-align: center;
+    padding: 5px 0;
+    .user-card-flwr-count {
+      font-size: $fs-lg;
+      color: #6f6f6f;
+    }
+    .user-card-flwr-txt {
+      color: #6f6f6f;
+      font-size: $fs-xs;
+      margin: 0;
+    }
+  }
+}
+
+.flw-icon {
+  color: $green-bg;
+}
+
+.user-card-col {
+  display: flex;
+  justify-content: center;
+}

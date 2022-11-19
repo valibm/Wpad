@@ -1,0 +1,32 @@
+.main-image {
+  width: 100%;
+  height: 24rem;
+  object-fit: contain;
+  // background-color: $gray-light;
+}
+
+.post-images-left {
+  border-radius: 4px;
+}
+
+.post-images-right {
+  overflow-y: scroll;
+  max-height: 24rem;
+}
+
+.side-image-div {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid $gray-light;
+
+  &:hover {
+    cursor: pointer;
+    border-color: $orange-btn;
+  }
+}
+
+.side-image {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+}

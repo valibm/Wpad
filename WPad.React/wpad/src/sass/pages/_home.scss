@@ -1,0 +1,49 @@
+.home-main {
+  background-color: $gray-home-bg;
+
+  .home-gen {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.home-controlls {
+  background-color: white;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+
+  .home-controlls-btns {
+    display: flex;
+    justify-content: space-evenly;
+    .browse-btn {
+      padding: 5px 20px;
+      border: 1px solid #787878;
+      margin-right: 5px;
+      &:hover {
+        font-weight: 500;
+      }
+    }
+    .home-btn {
+      padding: 5px 20px;
+      border: 1px solid #787878;
+      margin-left: 5px;
+      &:hover {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.controll-active {
+  border: 1px solid $orange-main !important;
+}
+
+.not-found {
+  background-color: white;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+
+  span {
+    font-weight: $fw-s-max;
+  }
+}

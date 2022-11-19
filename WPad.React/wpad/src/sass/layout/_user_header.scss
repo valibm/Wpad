@@ -1,0 +1,36 @@
+.userPage-header {
+  background-color: $dark-bg;
+  text-align: center;
+  color: $light;
+  padding-top: 6.75rem;
+  padding-bottom: 2.5rem;
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  &-avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: $borderRadius-max;
+    object-fit: cover;
+    border: 1px solid #fff;
+  }
+
+  &-fullname {
+    margin: 12px 0 6px 0;
+    &-txt {
+      font-weight: $fw-max;
+      font-size: $fs-xlg;
+      margin: 0;
+    }
+  }
+
+  &-username {
+    margin-bottom: 26px;
+    font-size: $fs-s-m;
+  }
+
+  &-stats {
+    @extend %display-flex-center;
+    font-size: $fs-s-m;
+  }
+}

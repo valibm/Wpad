@@ -1,0 +1,31 @@
+.search-icon {
+  background: none;
+  color: $gray-md;
+  border-color: $gray-light;
+}
+
+.result-response {
+  font-weight: $fw-max;
+  margin-top: 10px;
+}
+
+.result-response-mid {
+  font-weight: $fw-mid;
+}
+
+.search-section {
+  background-color: $light;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+  margin-right: 0;
+
+  input:focus {
+    border-color: none;
+  }
+}
+
+.home-search-icon {
+  background: none;
+  color: $gray-md;
+  border-color: $gray-light;
+}

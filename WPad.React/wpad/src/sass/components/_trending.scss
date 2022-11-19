@@ -1,0 +1,35 @@
+.trending-today {
+  background-color: white;
+  border-radius: $borderRadius-min;
+  border: 1px solid $gray-light;
+  max-height: 31rem;
+  overflow-y: scroll;
+
+  .trend-post {
+    border-bottom: 1px solid $gray-light;
+    padding: 0.5rem;
+    border-radius: $borderRadius-min;
+    &:hover {
+      background-color: $btn-bg;
+    }
+
+    .trend-title {
+      text-decoration: none;
+      color: black;
+      font-weight: $fw-s-max;
+    }
+
+    .trend-stats {
+      margin: 0.5rem 0;
+      @extend %display-flex-x-between-y-center;
+      color: $gray-md;
+      font-size: 10px;
+      .trend-views {
+        float: inline-start;
+      }
+      .trend-time-ago {
+        float: inline-end;
+      }
+    }
+  }
+}

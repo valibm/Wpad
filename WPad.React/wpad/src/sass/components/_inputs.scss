@@ -1,0 +1,72 @@
+.input-st {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: $borderRadius-min;
+  font-size: $fs-m;
+  background-color: #fafafa;
+  color: #222;
+  margin-top: 4px;
+  border: 1px solid #eee;
+
+  &:focus {
+    border: 1px solid #222;
+    outline: none;
+  }
+}
+
+.input-red {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: $borderRadius-min;
+  font-size: $fs-m;
+  background-color: #fce4e4;
+  color: #222;
+  margin-top: 4px;
+  border: 1px solid #ff1e00;
+
+  &:focus {
+    border: 1px solid #ff1e00;
+    outline: none;
+  }
+}
+
+.header-search-input {
+  border-right: none;
+  border-color: $dark;
+
+  &:focus {
+    box-shadow: none;
+    border-color: $dark;
+  }
+}
+
+.register-select {
+  padding: 0.75rem;
+  border-radius: $borderRadius-min;
+  font-size: $fs-m;
+  background-color: #fafafa;
+  color: #222;
+  margin-top: 4px;
+  border: 1px solid #eee;
+}
+
+.invite-input {
+  border-radius: $borderRadius-min;
+  padding: 0.25rem 0.25rem;
+  width: 65%;
+  border: none;
+
+  &:focus {
+    border: none;
+  }
+}
+
+.home-search-input {
+  border-color: $gray-light;
+  border-right: none;
+
+  &:focus {
+    box-shadow: none;
+    border-color: $gray-light;
+  }
+}

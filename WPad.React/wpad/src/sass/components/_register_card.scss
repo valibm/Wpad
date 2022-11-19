@@ -1,0 +1,25 @@
+.register-footer {
+  color: #222;
+  text-align: center;
+  font-size: $fs-s;
+  font-weight: $fw-min;
+}
+
+.register-main {
+  width: 100%;
+  padding: 8rem 0;
+  @extend %display-flex-center;
+  background-image: url("https://fontawesome.com/images/icons-gray-bg.svg");
+
+  .register-card {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: $borderRadius-min;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .register-buttons {
+      margin: 0 1.25rem;
+      padding: 0 1.25rem;
+    }
+  }
+}

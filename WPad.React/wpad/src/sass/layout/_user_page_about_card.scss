@@ -1,0 +1,80 @@
+.user-about-card {
+  border: 1px solid $gray-btn-bg;
+  box-shadow: 0 2px 5px rgba(120, 120, 120, 0.25);
+  border-radius: $borderRadius-min;
+
+  &-edit-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    span {
+      color: $dark;
+      font-weight: $fw-s-max;
+    }
+    a {
+      width: 180px;
+      color: $light;
+      background-color: $orange-btn;
+      border: none;
+      &:hover {
+        border: none;
+        color: $light;
+        background-color: $orange-btn-dark;
+      }
+    }
+  }
+
+  .user-social-links-div {
+    border-top: 1px solid $gray-btn-bg;
+    .user-social-links {
+      display: flex;
+      .user-fb-link-div {
+        background-color: #3b5998;
+        .user-fb-link {
+          color: $light;
+        }
+      }
+      .user-tw-link-div {
+        background-color: #55acee;
+        .user-tw-link {
+          color: $light;
+        }
+      }
+      .user-ins-link-div {
+        background: linear-gradient(
+          45deg,
+          #405de6,
+          #5851db,
+          #833ab4,
+          #c13584,
+          #e1306c,
+          #fd1d1d
+        );
+        .user-ins-link {
+          color: $light;
+        }
+      }
+      .user-pint-link-div {
+        background-color: #bd081c;
+        .user-pint-link {
+          color: $light;
+        }
+      }
+      .user-t-link-div {
+        background-color: #35465c;
+        .user-t-link {
+          color: $light;
+        }
+      }
+    }
+  }
+}
+
+.location-dot {
+  color: $gray-light;
+}
+
+.joined {
+  font-weight: $fw-max;
+}

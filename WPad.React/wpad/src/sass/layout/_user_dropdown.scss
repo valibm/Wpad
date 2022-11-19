@@ -1,0 +1,13 @@
+.dropdown-item {
+  padding: 0;
+
+  &:hover {
+    color: $orange-main;
+    background: none;
+  }
+}
+
+.dropdown-list {
+  margin-top: 10px;
+  padding: 0.5rem 0.5rem;
+}
