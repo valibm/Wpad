@@ -38,7 +38,7 @@ To Visit App:
 
 ## Reflection
 
-This was a 3 week long project. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
+This was a 3 week long project. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. In fact it was the first React application that i have built. 
 
 Originally I wanted to build a platform for young and unexperienced writers that allowed them to express their ideas. And while diong so they can gain more insight about their abilities by interacting with other user. Such as their mistakes and weaknesses or their advantages. But during development i realized that it doesn't need to be the only objective. With WPad peaple can share their knowledge about nearly anything from fun stories to differnt tastes in music or questions about some programming issues to an extraordinary experince while traveling. I believe WPad covers enough of the basis needed to accomplish that.
 
