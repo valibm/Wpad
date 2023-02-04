@@ -2,11 +2,11 @@
 
 It's a graduation project for the institution that i am studying. It's a social media application
 
-## Project Screen Shot(s)
+## Project Screen Shots
+
+![Screenshot 2023-02-04 121436](https://user-images.githubusercontent.com/101328496/216758334-adb65fb0-9f9d-40b1-85be-2799e1a6f77a.png)
 
 ![Screenshot 2023-02-04 121548](https://user-images.githubusercontent.com/101328496/216756937-9d8b0f8c-8e79-438a-979a-84a1625e62cf.png)
-
-![Screenshot 2023-02-04 121548](https://user-images.githubusercontent.com/101328496/216756966-e143645e-bf61-43d8-bf0b-f48f98f677ee.png)
 
 ![Screenshot 2023-02-04 120831](https://user-images.githubusercontent.com/101328496/216756979-8e3c89bc-a4ea-442d-95e9-f2d2b8f38edf.png)
 
