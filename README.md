@@ -10,6 +10,8 @@ It's a graduation project for the institution that i am studying. It's a social 
 
 ![Screenshot 2023-02-04 120831](https://user-images.githubusercontent.com/101328496/216756979-8e3c89bc-a4ea-442d-95e9-f2d2b8f38edf.png)
 
+![Screenshot 2023-02-04 120529](https://user-images.githubusercontent.com/101328496/216758365-55e67f67-cef5-4196-a1b3-e81ac35f5088.png)
+
 ![Screenshot 2023-02-04 121147](https://user-images.githubusercontent.com/101328496/216757036-dec23a2c-ab61-40df-81e6-ce0601c604ff.png)
 
 ## Installation and Setup Instructions
