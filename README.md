@@ -1,6 +1,6 @@
 ## WPad
 
-It's a graduation project for the institution that i am studying. this is a social media application.
+It's a graduation project for the institution that i am studying. This is a social media application.
 
 ## Project Screen Shots
 
